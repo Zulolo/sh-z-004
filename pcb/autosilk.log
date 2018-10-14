@@ -1,0 +1,44 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Auto Silkscreen Log File                                         )
+(                                                                     )
+(    Drawing          : io_4di_4do.brd                                )
+(    Software Version : 17.2S007                                      )
+(    Date/Time        : Sun Oct 14 22:38:33 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Generating Auto Silkscreen for both sides of the board.
+
+Copying all elements.
+
+Element to Pad clearance is 0.000
+Max Text displacement is 2.540
+Min Line Length is 0.000
+Allowing 0, 90, 180 and 270 degree text rotations.
+Text Allowed Under Components.
+Subclass Selections:
+ Board Geometry       : Silkscreen
+ Component Value      : Silkscreen
+ Device Type          : Silkscreen
+ Package Geometry     : Silkscreen
+ Reference Designator : Silkscreen
+ Tolerance            : Silkscreen
+ User Part Number     : Silkscreen
+
+
+     ----- Top Silkscreen -----
+
+
+     ----- Bottom Silkscreen -----
+
+Text string 'R3' is not at a suitable location
+(location: 22.900, 44.800)
+Text string 'R7' is not at a suitable location
+(location: 22.900, 42.500)
+
+Total Failures: 2
+
+Log End
+
