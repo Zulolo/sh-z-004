@@ -1,0 +1,133 @@
+Sun Oct 14 18:18:01 2018				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Sun Oct 14 18:18:01 2018
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : io_4di_4do.brd                                )
+(    Software Version : 17.2S007                                      )
+(    Date/Time        : Sun Oct 14 18:18:01 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Sun Oct 14 18:18:01 2018				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'G:/Work/sh-z-004/design/pcb/io_4di_4do.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'YES'
+Update shape/flash symbols             = 'YES'
+Update symbol padstacks                = 'YES'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'YES'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  G:/Cadence/Package_Symbol/ 
+           G:/Cadence/PADs/ 
+           G:/Cadence/Shape/ 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           G:/Cadence/PADs/ 
+
+
+------ Symbol Refresh Messages ------
+
+'SMD_L_0805'  symbol refreshed successfully.
+'SMD_C_1206'  symbol refreshed successfully.
+'SMD_C_0805'  symbol refreshed successfully.
+'SMD_R_0805'  symbol refreshed successfully.
+'C1X2_P381'  symbol refreshed successfully.
+'SMAF'  symbol refreshed successfully.
+'SMD_R_1206'  symbol refreshed successfully.
+'DO-214AC'  symbol refreshed successfully.
+'SMD_L_1210'  symbol refreshed successfully.
+'SOT23_D'  symbol refreshed successfully.
+'SOT23_MOSFET_N_GSD'  symbol refreshed successfully.
+'B2403S'  symbol refreshed successfully.
+'SMD3225_CRYSTAL'  symbol refreshed successfully.
+'HF46F'  symbol refreshed successfully.
+'C2X3'  symbol refreshed successfully.
+'C1X6'  symbol refreshed successfully.
+'SOIC8_208MIL'  symbol refreshed successfully.
+'C1X8_P381'  symbol refreshed successfully.
+'RJ45_HR911105A'  symbol refreshed successfully.
+'SOP16'  symbol refreshed successfully.
+'LQFP48'  symbol refreshed successfully.
+'LQFP100'  symbol refreshed successfully.
+'AB00'  symbol refreshed successfully.
+'HOLE_CIR_16_FLASH'  symbol refreshed successfully.
+'SQR_16_FLASH'  symbol refreshed successfully.
+'HOLE_CIR_13_FLASH'  symbol refreshed successfully.
+'HOLE_SQR_13_FLASH'  symbol refreshed successfully.
+
+
+------ Pad Stack Refresh Messages ------
+
+'DIP_SQ_8_13'  pad stack refreshed successfully.
+'SMD_16X6_SQ'  pad stack refreshed successfully.
+'SMD_18X9_REC'  pad stack refreshed successfully.
+'HOLE_CIR32'  pad stack refreshed successfully.
+'HOLE_CIR16'  pad stack refreshed successfully.
+'SMD_12X2_5_REC'  pad stack refreshed successfully.
+'SMD_20X12_REC'  pad stack refreshed successfully.
+'SMD_14X12_REC'  pad stack refreshed successfully.
+'DIP_CIR_12_20'  pad stack refreshed successfully.
+'DIP_SQ_12_20'  pad stack refreshed successfully.
+'SMD_20X18_REC'  pad stack refreshed successfully.
+'DIP_CIR_10_16'  pad stack refreshed successfully.
+'DIP_SQ_10_16'  pad stack refreshed successfully.
+'DIP_CIR_16_22'  pad stack refreshed successfully.
+Sun Oct 14 18:18:01 2018				Page     2
+
+
+'DIP_SQ_16_22'  pad stack refreshed successfully.
+'SMD_12X3_REC'  pad stack refreshed successfully.
+'SMD_6X10_REC'  pad stack refreshed successfully.
+'SMD_16X5_REC'  pad stack refreshed successfully.
+'DIP_CIR_8_10'  pad stack refreshed successfully.
+'SMD_14X8_REC'  pad stack refreshed successfully.
+'SMD_15X9_REC'  pad stack refreshed successfully.
+'DIP_CIR_8_13'  pad stack refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 27 out 27
+    Design updated.
+
