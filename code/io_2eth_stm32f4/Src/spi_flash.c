@@ -1,7 +1,7 @@
 #include "main.h"
 #include "stm32f4xx_hal.h"
 #include "cmsis_os.h"
-#include "sh_z_002.h"
+#include "sh_z_004.h"
 #include "spiffs.h"
 
 #define SPI_FLASH_CHIP_BUSY_BIT				(0x01U)	

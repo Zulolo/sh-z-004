@@ -2,13 +2,13 @@
 #define _DI_MONITOR_H
 
 #include "cmsis_os.h"
-#include "sh_z_002.h"
+#include "sh_z_004.h"
 
 #define GET_DI_BYTE_NUM(x)			((((x) % BITS_NUM_PER_BYTE) == 0) ? \
-										((x) / BITS_NUM_PER_BYTE): \
-										((x) / BITS_NUM_PER_BYTE + 1))
-#define SH_Z_002_DI_BYTE_NUM		GET_DI_BYTE_NUM(SH_Z_002_DI_NUM)
-#define IS_DI_PIN_NUM(NUM)          (((NUM) <= 32 ))
+																	((x) / BITS_NUM_PER_BYTE): \
+																	((x) / BITS_NUM_PER_BYTE + 1))
+#define SH_Z_004_DI_BYTE_NUM		GET_DI_BYTE_NUM(SH_Z_004_DI_NUM)
+#define IS_DI_PIN_NUM(NUM)			(((NUM) <= 32 ))
 //#define SPIFFS_READY_EVENT_BIT		0x00010000
 
 //typedef struct {

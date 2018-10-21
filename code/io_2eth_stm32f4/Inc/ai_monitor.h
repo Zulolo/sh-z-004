@@ -2,7 +2,7 @@
 #define _AI_MONITOR_H
 
 #include "cmsis_os.h"
-#include "sh_z_002.h"
+#include "sh_z_004.h"
 
 void AI_get_AI_values(uint16_t* pAI_Values);
 void AI_get_AI_current(int32_t* pAI_Current);

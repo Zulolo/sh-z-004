@@ -3,7 +3,7 @@
 #include "cmsis_os.h"
 #include "cJSON.h"
 #include "sh_z.h"
-#include "sh_z_002.h"
+#include "sh_z_004.h"
 
 void UTL_sh_z_004_info_init(void);
 void UTL_sh_z_eth_conf_init(void);

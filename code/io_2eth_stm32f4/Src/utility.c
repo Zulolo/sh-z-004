@@ -5,12 +5,12 @@
 #include "cJSON.h"
 #include "spiffs.h"
 #include "lwip/apps/tftp_server.h"
-#include "sh_z_002.h"
+#include "sh_z_004.h"
 
 extern osMutexId WebServerFileMutexHandle;
 extern spiffs SPI_FFS_fs;
 
-char SH_Z_002_SN[SH_Z_SN_LEN + 1] = "SHZ002.201809190";
+char SH_Z_004_SN[SH_Z_SN_LEN + 1] = "SHZ002.201809190";
 ETH_Conf_t tEthConf;
 
 static void* tftp_file_open(const char* fname, const char* mode, u8_t write) {
@@ -53,7 +53,7 @@ static int create_default_sh_z_002_info(void) {
   cJSON* pSN = NULL;
 	cJSON* pDI_ConfJsonWriter;
 	
-	tFileDesc = SPIFFS_open(&SPI_FFS_fs, SH_Z_002_INFO_FILE_NAME, SPIFFS_RDWR | SPIFFS_CREAT, 0);
+	tFileDesc = SPIFFS_open(&SPI_FFS_fs, SH_Z_004_INFO_FILE_NAME, SPIFFS_RDWR | SPIFFS_CREAT, 0);
 
 	pDI_ConfJsonWriter = cJSON_CreateObject();
 	if (pDI_ConfJsonWriter == NULL){
@@ -120,7 +120,7 @@ int UTL_save_eth_conf(ETH_Conf_t* pEthConf) {
 	int nRslt;
 	cJSON* pEthConfJsonWriter;
 	
-	tFileDesc = SPIFFS_open(&SPI_FFS_fs, SH_Z_002_ETH_CONF_FILE_NAME, SPIFFS_RDWR | SPIFFS_CREAT, 0);
+	tFileDesc = SPIFFS_open(&SPI_FFS_fs, SH_Z_004_ETH_CONF_FILE_NAME, SPIFFS_RDWR | SPIFFS_CREAT, 0);
 	
 	pEthConfJsonWriter = cJSON_CreateObject();
 	if (pEthConfJsonWriter == NULL){
@@ -233,8 +233,8 @@ static int load_sh_z_002_info(spiffs_file tFileDesc) {
 
 	pSN = cJSON_GetObjectItemCaseSensitive(pSN_ConfJson, DEVICE_SN_JSON_TAG);
 	if (cJSON_IsString(pSN)){
-		strncpy(SH_Z_002_SN, pSN->valuestring, sizeof(SH_Z_002_SN));
-		SH_Z_002_SN[SH_Z_SN_LEN] = '\0';
+		strncpy(SH_Z_004_SN, pSN->valuestring, sizeof(SH_Z_004_SN));
+		SH_Z_004_SN[SH_Z_SN_LEN] = '\0';
 	}	else {
 		// TODO
 	}
@@ -315,7 +315,7 @@ static int load_sh_z_002_eth_conf(spiffs_file tFileDesc) {
 void UTL_sh_z_004_info_init(void) {
 	spiffs_file tFileDesc;
 	
-	tFileDesc = SPIFFS_open(&SPI_FFS_fs, SH_Z_002_INFO_FILE_NAME, SPIFFS_RDONLY, 0);
+	tFileDesc = SPIFFS_open(&SPI_FFS_fs, SH_Z_004_INFO_FILE_NAME, SPIFFS_RDONLY, 0);
 	if (tFileDesc < 0) {
 		// file not exist, save default configuration
 		create_default_sh_z_002_info();
@@ -329,7 +329,7 @@ void UTL_sh_z_004_info_init(void) {
 void UTL_sh_z_eth_conf_init(void) {
 	spiffs_file tFileDesc;
 	
-	tFileDesc = SPIFFS_open(&SPI_FFS_fs, SH_Z_002_ETH_CONF_FILE_NAME, SPIFFS_RDONLY, 0);
+	tFileDesc = SPIFFS_open(&SPI_FFS_fs, SH_Z_004_ETH_CONF_FILE_NAME, SPIFFS_RDONLY, 0);
 	if (tFileDesc < 0) {
 		// file not exist, save default configuration
 		UTL_create_default_eth_conf();
