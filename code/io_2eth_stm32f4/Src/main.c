@@ -103,7 +103,7 @@ void send_GARP(void const * argument);
 
 /* USER CODE BEGIN PFP */
 /* Private function prototypes -----------------------------------------------*/
-
+extern void UTL_start_udp_broadcast(void const * argument);
 /* USER CODE END PFP */
 
 /* USER CODE BEGIN 0 */
@@ -220,7 +220,8 @@ int main(void)
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
   /* USER CODE END RTOS_THREADS */
-
+	osThreadDef(udp_discovery, UTL_start_udp_broadcast, osPriorityIdle, 0, 256);
+  webserverHandle = osThreadCreate(osThread(udp_discovery), NULL);
   /* USER CODE BEGIN RTOS_QUEUES */
   /* add queues, ... */
   

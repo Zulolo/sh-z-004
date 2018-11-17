@@ -3,66 +3,61 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  G:/Work/sh-z-004/design/pcb/io_4di_4do.brd                                  |
-|                                                    Sun Oct 14 10:12:05 2018  |
+|                                                    Sat Nov 17 22:09:39 2018  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  DO_TTL_2     pins MOVED FROM this net (to net name listed on right)
-                                 R34.1           111.352  87.589
-                                                                       DO_TTL_3
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 U5.6              2.476  96.050
+                                 U5.8              2.476  93.510
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DO_TTL_3     pins MOVED FROM this net (to net name listed on right)
-                                 R33.1           111.352  43.246
-                                                                       DO_TTL_2
+  GND_EXT      pins ADDED TO this existing net (pins not previously on any net)
+                                 U5.9              8.976  93.510
+                                 U5.11             8.976  96.050
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  RELAY_COM    pins MOVED FROM this net (to net name listed on right)
-                                 J4.1             80.100  43.000
-                                                                     RELAY_0_IN
-                                 J4.3             80.100  35.380
-                                                                     RELAY_1_IN
-                                 J4.5             80.100  27.760
-                                                                     RELAY_2_IN
-                                 J4.7             80.100  20.140
-                                                                     RELAY_3_IN
-                                 K1.4             71.400  21.500
-                                                                     RELAY_0_IN
-                                 K2.4            107.676  54.500
-                                                                     RELAY_1_IN
-                                 K3.4            107.676  46.100
-                                                                     RELAY_2_IN
-                                 K4.4            107.676  16.354
-                                                                     RELAY_3_IN
+  N4648882     pins ADDED TO this existing net (pins not previously on any net)
+                                 U5.10             8.976  94.780
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  RELAY_OUT_0  net RENAMED (to net name listed on right)           RELAY_0_OUT  
+  N4649360     pins ADDED TO this existing net (pins not previously on any net)
+                                 U5.12             8.976  97.320
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  RELAY_OUT_1  net RENAMED (to net name listed on right)           RELAY_1_OUT  
+  N4659946     pins ADDED TO this existing net (pins not previously on any net)
+                                 U5.5              2.476  97.320
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  RELAY_OUT_2  pins MOVED FROM this net (to net name listed on right)
-                                 J4.6             80.100  23.950
-                                                                    RELAY_2_OUT
-                                 K4.3            100.676  16.354
-                                                                    RELAY_3_OUT
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  RELAY_OUT_3  pins MOVED FROM this net (to net name listed on right)
-                                 J4.8             80.100  16.330
-                                                                    RELAY_3_OUT
-                                 K3.3            100.676  46.100
-                                                                    RELAY_2_OUT
+  N4659970     pins ADDED TO this existing net (pins not previously on any net)
+                                 U5.7              2.476  94.780
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  G:/Work/sh-z-004/design/pcb/io_4di_4do.brd                                  |
-|                                                    Sun Oct 14 10:12:05 2018  |
+|                                                    Sat Nov 17 22:09:39 2018  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENTS DELETED from design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|    ref des        |    device type      |   x   |   y                        |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U6                  PS2801-4/SM_SOP16_PS2801-4/SM  13.382 102.400
+ U7                  PS2801-4/SM_SOP16_PS2801-4/SM  24.288 102.400
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :      16                                        |
+|  G:/Work/sh-z-004/design/pcb/io_4di_4do.brd                                  |
+|                                                    Sat Nov 17 22:09:39 2018  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U5.9             2.476 102.400 PRIM_FILE      .\pstchip.dat
+ U5.11            2.476 102.400 PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :       8                                        |
+|       Components deleted    :       2                                        |
+|       Slot property added   :       2                                        |
 |                                                                              |
-|   Total ECO changes reported:      16                                        |
+|   Total ECO changes reported:      12                                        |
 |------------------------------------------------------------------------------|

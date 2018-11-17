@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Oct-14-2018 at 10:11:55}
+{ Using PSTWRITER 17.2.0 d001Nov-17-2018 at 22:09:31}
 primitive 'CAP NP_SMD_C_0805_47UF';
   pin
     '1':
@@ -738,24 +738,6 @@ primitive 'STM32F407VET_LQFP100_STM32F407V';
     VALUE='STM32F407VET6';
   end_body;
 end_primitive;
-primitive 'MOSFET N GSD_SOT23_MOSFET_N_GSD';
-  pin
-    'G':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    'D':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'S':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='MOSFET N GSD';
-    JEDEC_TYPE='SOT23_MOSFET_N_GSD';
-    VALUE='AO3416';
-  end_body;
-end_primitive;
 primitive 'RESISTOR_SMD_R_0805_10K';
   pin
     '1':
@@ -859,21 +841,6 @@ primitive 'RESISTOR_SMD_R_0805_2K';
     PART_NAME='RESISTOR';
     JEDEC_TYPE='SMD_R_0805';
     VALUE='2K';
-  end_body;
-end_primitive;
-primitive 'RESISTOR_SMD_R_0805_100';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='RESISTOR';
-    JEDEC_TYPE='SMD_R_0805';
-    VALUE='100';
   end_body;
 end_primitive;
 primitive 'RESISTOR_SMD_R_0805_1.5K';

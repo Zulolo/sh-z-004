@@ -1,4 +1,4 @@
-{ Using PSTWRITER 17.2.0 d001Oct-14-2018 at 10:11:53 }
+{ Using PSTWRITER 17.2.0 d001Nov-17-2018 at 22:09:30 }
 
 #1 WARNING(ORCAP-36038): "No_connect" property on Pin "J1.8" ignored for J1: SCHEMATIC1, ETH (1.80, 4.00). Connecting pin to net "GND".
 #2 WARNING(ORCAP-36038): "No_connect" property on Pin "J2.8" ignored for J2: SCHEMATIC1, ETH (1.80, 5.30). Connecting pin to net "GND".
@@ -8,8 +8,8 @@
 #6 WARNING(ORCAP-36038): "No_connect" property on Pin "MCU1.78" ignored for MCU1: SCHEMATIC1, MCU (2.70, 1.70). Connecting pin to net "FLASH_SCK".
 #7 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.26" ignored for U1: SCHEMATIC1, ETH (6.20, 1.90). Connecting pin to net "N4585606".
 #8 WARNING(ORCAP-36006): Part Name "DIODE BI-DIR TRIG_DO-214AC_SMAJ24CA" is renamed to "DIODE BI-DIR TRIG_DO-214AC_SMAJ".
-#9 WARNING(ORCAP-36042): Pin "IO" is renamed to "IO#1" as visible power pin of same name already exists in Package SM712 , D7: SCHEMATIC1, IO (3.60, 5.30).
-#10 WARNING(ORCAP-36042): Pin "IO" is renamed to "IO#2" as visible power pin of same name already exists in Package SM712 , D7: SCHEMATIC1, IO (3.60, 5.30).
+#9 WARNING(ORCAP-36042): Pin "IO" is renamed to "IO#1" as visible power pin of same name already exists in Package SM712 , D7: SCHEMATIC1, IO (3.20, 5.40).
+#10 WARNING(ORCAP-36042): Pin "IO" is renamed to "IO#2" as visible power pin of same name already exists in Package SM712 , D7: SCHEMATIC1, IO (3.20, 5.40).
 #11 WARNING(ORCAP-36006): Part Name "RJ45_HR911105A_RJ45_HR911105A_ETH1" is renamed to "RJ45_HR911105A_RJ45_HR911105A_E".
 #12 WARNING(ORCAP-36006): Part Name "RJ45_HR911105A_RJ45_HR911105A_ETH2" is renamed to "RJ45_HR911105A_RJ45_HR911105A_1".
 #13 WARNING(ORCAP-36006): Part Name "STM32F407VET_LQFP100_STM32F407VET6" is renamed to "STM32F407VET_LQFP100_STM32F407V".
@@ -23,15 +23,14 @@
 #21 WARNING(ORCAP-36042): Pin "VDD" is renamed to "VDD#75" as visible power pin of same name already exists in Package STM32F407VET , MCU1: SCHEMATIC1, MCU (2.70, 1.70).
 #22 WARNING(ORCAP-36042): Pin "VSS" is renamed to "VSS#99" as visible power pin of same name already exists in Package STM32F407VET , MCU1: SCHEMATIC1, MCU (2.70, 1.70).
 #23 WARNING(ORCAP-36042): Pin "VDD" is renamed to "VDD#100" as visible power pin of same name already exists in Package STM32F407VET , MCU1: SCHEMATIC1, MCU (2.70, 1.70).
-#24 WARNING(ORCAP-36006): Part Name "MOSFET N GSD_SOT23_MOSFET_N_GSD_AO3416" is renamed to "MOSFET N GSD_SOT23_MOSFET_N_GSD".
-#25 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#21" as visible power pin of same name already exists in Package KSZ8863RLL , U1: SCHEMATIC1, ETH (6.20, 1.90).
-#26 WARNING(ORCAP-36042): Pin "VDDIO" is renamed to "VDDIO#22" as visible power pin of same name already exists in Package KSZ8863RLL , U1: SCHEMATIC1, ETH (6.20, 1.90).
-#27 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#31" as visible power pin of same name already exists in Package KSZ8863RLL , U1: SCHEMATIC1, ETH (6.20, 1.90).
-#28 WARNING(ORCAP-36042): Pin "VDDIO" is renamed to "VDDIO#40" as visible power pin of same name already exists in Package KSZ8863RLL , U1: SCHEMATIC1, ETH (6.20, 1.90).
-#29 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#41" as visible power pin of same name already exists in Package KSZ8863RLL , U1: SCHEMATIC1, ETH (6.20, 1.90).
-#30 WARNING(ORCAP-36006): Part Name "CRYSTAL-4PIN_1_SMD3225_CRYSTAL_25M" is renamed to "CRYSTAL-4PIN_1_SMD3225_CRYSTAL_".
-#31 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#2" as visible power pin of same name already exists in Package crystal-4pin_1 , Y1: SCHEMATIC1, ETH (5.90, 4.30).
-#32 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#4" as visible power pin of same name already exists in Package crystal-4pin_1 , Y1: SCHEMATIC1, ETH (5.90, 4.30).
+#24 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#21" as visible power pin of same name already exists in Package KSZ8863RLL , U1: SCHEMATIC1, ETH (6.20, 1.90).
+#25 WARNING(ORCAP-36042): Pin "VDDIO" is renamed to "VDDIO#22" as visible power pin of same name already exists in Package KSZ8863RLL , U1: SCHEMATIC1, ETH (6.20, 1.90).
+#26 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#31" as visible power pin of same name already exists in Package KSZ8863RLL , U1: SCHEMATIC1, ETH (6.20, 1.90).
+#27 WARNING(ORCAP-36042): Pin "VDDIO" is renamed to "VDDIO#40" as visible power pin of same name already exists in Package KSZ8863RLL , U1: SCHEMATIC1, ETH (6.20, 1.90).
+#28 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#41" as visible power pin of same name already exists in Package KSZ8863RLL , U1: SCHEMATIC1, ETH (6.20, 1.90).
+#29 WARNING(ORCAP-36006): Part Name "CRYSTAL-4PIN_1_SMD3225_CRYSTAL_25M" is renamed to "CRYSTAL-4PIN_1_SMD3225_CRYSTAL_".
+#30 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#2" as visible power pin of same name already exists in Package crystal-4pin_1 , Y1: SCHEMATIC1, ETH (5.90, 4.30).
+#31 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#4" as visible power pin of same name already exists in Package crystal-4pin_1 , Y1: SCHEMATIC1, ETH (5.90, 4.30).
 INFO(ORCAP-36080): Scanning netlist files ...
 
 Loading... G:\WORK\SH-Z-004\DESIGN\SCH/pstchip.dat

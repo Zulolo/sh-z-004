@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : io_4di_4do.brd                                )
 (    Software Version : 17.2S007                                      )
-(    Date/Time        : Sun Oct 14 10:12:05 2018                      )
+(    Date/Time        : Sat Nov 17 22:09:39 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,7 +22,7 @@ Design Directory:            'G:/Work/sh-z-004/design/pcb'
 Old design name:             'G:/Work/sh-z-004/design/pcb/io_4di_4do.brd'
 New design name:             'G:/Work/sh-z-004/design/pcb/io_4di_4do.brd'
 
-CmdLine: netrev -$ -i G:/Work/sh-z-004/design/sch -y 1 -h -q netrev_constraint_report.xml G:/Work/sh-z-004/design/pcb/#Taaaaac13624.tmp
+CmdLine: netrev -$ -i G:/Work/sh-z-004/design/sch -y 1 -h -q netrev_constraint_report.xml G:/Work/sh-z-004/design/pcb/#Taaaaaf00972.tmp
 
 ------ Preparing to read pst files ------
 
@@ -65,7 +65,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Oct 14 10:12:05 2018
+netrev run on Nov 17 22:09:39 2018
    DESIGN NAME : 'IO_TWO_ETH'
    PACKAGING ON Aug  8 2016 18:41:50
 
