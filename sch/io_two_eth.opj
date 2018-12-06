@@ -68,7 +68,6 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\io_two_eth.dsn")
       (Path "Design Resources" ".\io_two_eth.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\io_two_eth.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Outputs")
       (Select "Design Resources" ".\io_two_eth.dsn"))
@@ -82,7 +81,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1554 52 729")
-        (Scroll "-77 0")
+        (Scroll "-77 60")
         (Zoom "134")
         (Occurrence "/"))
       (Path "G:\WORK\SH-Z-004\DESIGN\SCH\IO_TWO_ETH.DSN")
