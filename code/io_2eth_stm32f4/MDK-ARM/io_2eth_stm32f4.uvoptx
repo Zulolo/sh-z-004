@@ -120,7 +120,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>DLGUARM</Key>
-          <Name>?6wP5??6wP5?</Name>
+          <Name>?恮P6;	?恮P6;	</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -227,7 +227,7 @@
 
   <Group>
     <GroupName>Application/MDK-ARM</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -1570,8 +1570,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../Middlewares/Third_Party/LwIP/src/apps/mqtt/mqtt.c</PathWithFileName>
-      <FilenameWithoutPath>mqtt.c</FilenameWithoutPath>
+      <PathWithFileName>../Middlewares/Third_Party/LwIP/src/apps/tftp/tftp_server.c</PathWithFileName>
+      <FilenameWithoutPath>tftp_server.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1582,8 +1582,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>../Middlewares/Third_Party/LwIP/src/apps/tftp/tftp_server.c</PathWithFileName>
-      <FilenameWithoutPath>tftp_server.c</FilenameWithoutPath>
+      <PathWithFileName>..\Middlewares\Third_Party\LwIP\src\apps\mqtt\mqtt.c</PathWithFileName>
+      <FilenameWithoutPath>mqtt.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1707,7 +1707,7 @@
 
   <Group>
     <GroupName>Drivers/CMSIS</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -1911,7 +1911,7 @@
 
   <Group>
     <GroupName>Middlewares/cjson</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -1939,7 +1939,7 @@
 
   <Group>
     <GroupName>::Compiler</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>1</RteFlg>

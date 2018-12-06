@@ -179,7 +179,7 @@ static int di_conf_wr_conf_file(spiffs_file tFileDesc) {
     }	
 	cJSON_AddItemToObject(pDI_ConfJsonWriter, DI_CONF_CNT_ENABLE_JSON_TAG, pCNT_Enable);	
 	
-	pJsonString = cJSON_Print(pDI_ConfJsonWriter);
+	pJsonString = cJSON_PrintUnformatted(pDI_ConfJsonWriter);
     if (pJsonString == NULL){
 		cJSON_Delete(pDI_ConfJsonWriter);
 		printf("failed to digest json object.\n");
